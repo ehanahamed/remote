@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ën">
+    <head>
+        <title> </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=10, user-scalable=1" />
+    </head>
+    <body>
+        nothing to see here...
+        <script>
+            const websocket = new WebSocket("wss://server.freehold.dev/remote");
+            websocket.addEventListener("message", (e) => {
+                alert(e)
+            })
+        </script>
+    </body>
+</html>
